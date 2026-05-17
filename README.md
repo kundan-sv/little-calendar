@@ -64,7 +64,7 @@ npm run start
 
 ## Screenshot
 
-<img width="290" height="320" alt="calendar screenshot" src="https://github.com/user-attachments/assets/1fe9be80-c92e-4ab8-918c-724aa88021a9" />
+<img width="290" height="320" alt="calendar screenshot" src="https://github.com/user-attachments/assets/dbae5277-7cfb-416d-8dd4-511db799318a" />
 
 ## Author
 
