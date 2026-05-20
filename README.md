@@ -4,7 +4,7 @@ A lightweight desktop calendar widget built with Electron for displaying the cur
 
 ## How It Works
 
-The application uses Electron to create a lightweight desktop window and dynamically displays the current day and month using JavaScript. The widget automatically launches on startup after opening the app once.
+The application uses Electron to create a lightweight desktop window and dynamically displays the current day and month using JavaScript. The widget automatically launches after opening the laptop once.
 
 ## Features
 
