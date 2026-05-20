@@ -1,6 +1,6 @@
 # Little Calendar 📅
 
-A minimal desktop calendar widget built with Electron for displaying the current day and month in a clean pastel UI.
+A lightweight desktop calendar widget built with Electron for displaying the current day and month in a clean pastel-themed UI.
 
 ## How It Works
 
@@ -61,10 +61,22 @@ Run the application:
 ```bash
 npm run start
 ```
+## Download
+
+Download the latest desktop build from GitHub Releases.
 
 ## Screenshot
 
-<img width="290" height="320" alt="calendar screenshot" src="https://github.com/user-attachments/assets/dbae5277-7cfb-416d-8dd4-511db799318a" />
+<img width="312" height="330" alt="image" src="https://github.com/user-attachments/assets/a7157f51-7a67-4420-8858-8bd90c103280" />
+
+## Future Improvements 
+
+- Live clock
+- Dark/Light themes
+- Weather integration
+- Sticky notes
+- To-do list
+- System tray icon
 
 ## Author
 
