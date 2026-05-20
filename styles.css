@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Pixeboy";
+  src: url("assets/fonts/Pixeboy.ttf") format("truetype");
+}
 
 body {
   margin: 0;
@@ -9,10 +13,7 @@ body {
   height: 100vh;
   user-select: none;
   -webkit-app-region: drag;
-  border-radius: 20px;
-  margin: 0;
-  background: #d7b6ff;
-
+  background: transparent;
 }
 
 .app {
@@ -81,10 +82,11 @@ select {
 #day {
     color: #FFF;
     text-align: center;
-    -webkit-text-stroke-width: 1.5px;
+    text-rendering: geometricPrecision;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(--mid-purple, #B58CD9);
     font-family: Pixeboy;
-    font-size: 8.5rem;
+    font-size: 7rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.25rem; 

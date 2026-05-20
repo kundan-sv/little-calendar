@@ -10,5 +10,8 @@
   "devDependencies": {
     "electron": "latest",
     "electron-packager": "^17.1.2"
+  },
+  "dependencies": {
+    "auto-launch": "^5.0.6"
   }
 }

@@ -1,4 +1,11 @@
 const { app, BrowserWindow } = require("electron");
+const AutoLaunch = require("auto-launch");
+
+const appLauncher = new AutoLaunch({
+  name: "Little Calendar",
+});
+
+appLauncher.enable();
 
 function createWindow() {
   const win = new BrowserWindow({
@@ -9,13 +16,13 @@ function createWindow() {
     maximizable: false,
     fullscreenable: false,
     frame: false,
+    transparent: true,
+    backgroundColor: "#00000000",
     skipTaskbar: true,
-    backgroundColor: "#d7b6ff",
     webPreferences: {
-      contextIsolation: true
-    }
+      contextIsolation: true,
+    },
   });
-
   win.loadFile("index.html");
 }
 
